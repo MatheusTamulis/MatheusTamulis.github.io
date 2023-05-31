@@ -8,14 +8,15 @@ header
     padding: 10px 20px;
 }
 
-h1
+header h1
 {
     font-family: 'Press Start 2P', cursive;
     color: #fff;
     text-shadow: 5px 5px 0 #000;
+    font-size: 30px;
 }
 
-nav
+header nav
 {
     text-align: right;
 }
@@ -38,7 +39,7 @@ a:hover
     color: #1D1A31;
 }
 
-a::before
+header a::before
 {
     content: "";
     background-color: #F88D35;
@@ -63,6 +64,105 @@ a::before
 
 #button:hover
 {
+    background-color: #1D1A31;
+    transform: scale(1.08);
+}
+
+.imagem-normal
+{
+    background-image: url(../images/photonormal.jpg);
+    width: 100%;
+    height: 807px;
+    top: 80px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: 10px solid #000;
+}
+
+.imagem-pixel
+{
+    background-image: url(../images/photopixel.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    background-color: #1D1A31;
+    top: 80px;
+    height: 100%;
+    width: 66%;
+    border-right: 5px solid #000;
+}
+
+.caixa-nome
+{
+    display: flex;
+    background-color: #1D1A31;
+    width: 627px;
+    height: 184px;
+    left: 91px;
+    top: 196px;
+    margin: 106px 237px 38px 91px;
+    box-shadow: 10px 10px 0px #000; 
+    flex-direction: column;
+}
+
+.caixa-nome h1
+{
+    color: #F88D35;
+    text-shadow: 4px 4px 0 #000;
+    margin: 41px 12px 29px 15px;
+}
+
+.caixa-nome h2
+{
+    font-family: 'Press Start 2P';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 30px;
+    margin: 0px 47px 44px 40px;
+    color: #fff;
+    text-shadow: 4px 4px 0 #000;
+}
+
+.botaocv
+{
+    color: #fff;
+    display: inline-block;
+    background-color: #F88D35;
+    box-shadow: 5px 5px 0px #000;
+    padding: 18px 20px;
+    margin: 0 95px 399px 181px;
+    transition: .3s;
+    width: 142px;
+    height: 26.4px;
+    text-align: center;
+}
+
+.botaocv:hover
+{
+    color: #fff;
+    background-color: #1D1A31;
+    transform: scale(1.08);
+}
+
+.botaoctt
+{
+    color: #fff;
+    display: inline-block;
+    background-color: #F88D35;
+    box-shadow: 5px 5px 0px #000;
+    padding: 18px 20px;
+    margin: 0 0 399px 0;
+    transition: .3s;
+    width: 142px;
+    height: 26.4px;
+    text-align: center;
+}
+
+.botaoctt:hover
+{
+    color: #fff;
     background-color: #1D1A31;
     transform: scale(1.08);
 }
