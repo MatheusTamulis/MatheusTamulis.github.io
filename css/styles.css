@@ -10,7 +10,7 @@ header
 
 header h1
 {
-    font-family: 'Press Start 2P', cursive;
+    font-family: 'Press Start 2P', sans-serif;
     color: #fff;
     text-shadow: 5px 5px 0 #000;
     font-size: 30px;
@@ -115,11 +115,6 @@ header a::before
 
 .caixa-nome h2
 {
-    font-family: 'Press Start 2P';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 30px;
-    line-height: 30px;
     margin: 0px 47px 44px 40px;
     color: #fff;
     text-shadow: 4px 4px 0 #000;
