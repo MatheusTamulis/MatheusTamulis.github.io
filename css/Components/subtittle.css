@@ -6,3 +6,11 @@ h2
     font-size: 30px;
     line-height: 30px;
 }
+
+.caixa-nome h2 
+{
+
+    color: #fff;
+    text-shadow: 4px 4px 0 #000;
+    text-align: center;
+}

@@ -1,0 +1,15 @@
+.caixa-nome 
+{
+    display: flex;
+    background-color: #1D1A31;
+    width: 627px;
+    height: 184px;
+    left: 91px;
+    top: 196px;
+    margin: 106px 237px 38px 91px;
+    box-shadow: 10px 10px 0px #000;
+    flex-direction: column;
+}
+
+
+

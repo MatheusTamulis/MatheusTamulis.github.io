@@ -93,33 +93,6 @@ header a::before
     border-right: 5px solid #000;
 }
 
-.caixa-nome
-{
-    display: flex;
-    background-color: #1D1A31;
-    width: 627px;
-    height: 184px;
-    left: 91px;
-    top: 196px;
-    margin: 106px 237px 38px 91px;
-    box-shadow: 10px 10px 0px #000; 
-    flex-direction: column;
-}
-
-.caixa-nome h1
-{
-    color: #F88D35;
-    text-shadow: 4px 4px 0 #000;
-    margin: 41px 12px 29px 15px;
-}
-
-.caixa-nome h2
-{
-    margin: 0px 47px 44px 40px;
-    color: #fff;
-    text-shadow: 4px 4px 0 #000;
-}
-
 .botaocv
 {
     color: #fff;
