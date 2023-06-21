@@ -1,4 +1,6 @@
 body, h1, h2, h3
 {
     margin: 0; /* tira a parte branca da margem, quero que a cor do background cubra a parte toda da tela */
+    padding: 0;
+    box-sizing: border-box;
 }

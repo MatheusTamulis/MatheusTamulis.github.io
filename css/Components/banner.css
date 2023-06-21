@@ -1,0 +1,24 @@
+.banner
+{
+    background-image: url(../../images/Foto.jpg);
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: 10px solid #000;
+    padding-top: 115px;
+    padding-left: 90px;
+}
+
+.wrapper
+{
+    display: flex;
+    flex-direction: column;
+    width: 640px;
+}
+
+.navigation
+{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
