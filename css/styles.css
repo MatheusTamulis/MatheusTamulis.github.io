@@ -71,6 +71,9 @@ header a::before
     width: 930px;
     margin-left: auto;
     margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .html5
@@ -79,7 +82,6 @@ header a::before
     background-color: #1D1A31;
     width: 430px;
     height: 90px;
-    flex-wrap: wrap;
 }
 
 .barrinha
@@ -108,3 +110,12 @@ header a::before
     width: 70%;
     height: 100%;
 }
+
+.nodejs
+{
+    display: flex;
+    background-color: #1D1A31;
+    width: 430px;
+    height: 90px;
+}
+
