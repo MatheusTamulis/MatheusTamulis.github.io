@@ -48,22 +48,6 @@ header a::before
     margin-right: 10px;
 }
 
-.skills
-{
-    background-color: #F88D35;
-    height: 680px;
-    border-bottom: 10px solid #9A4C95;
-    padding-top: 50px;
-}
-
-.skills h1
-{
-    color: #fff;
-    text-align: center;
-    font-size: 40px;
-    margin-bottom: 60px;
-}
-
 .boxskills
 {
     background-color: #9A4C95;
