@@ -11,7 +11,12 @@
     margin-bottom: 60px;
 }
 
-.section.project
+.section.-bgblack
 {
     background-color: #000;
+}
+
+.section.-bdFirst
+{
+    border-bottom: 10px solid #F88D35;
 }
