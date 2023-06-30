@@ -1,4 +1,4 @@
-.banner
+.main-banner
 {
     background-image: url(../../images/Foto.jpg);
     height: 800px;
@@ -9,7 +9,7 @@
     padding-left: 90px;
 }
 
-.wrapper
+.main-banner .wrapper
 {
     display: flex;
     flex-direction: column;
