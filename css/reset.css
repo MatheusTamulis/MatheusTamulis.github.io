@@ -4,3 +4,21 @@ body, h1, h2, h3
     padding: 0;
     box-sizing: border-box;
 }
+
+a 
+{
+    display: inline-flex;
+    align-items: center;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Fira Code', monospace;
+    font-weight: 500;
+    text-decoration: none;
+    margin-right: 30px;
+    transition: .3s;
+}
+
+a:hover 
+{
+    color: #1D1A31;
+}

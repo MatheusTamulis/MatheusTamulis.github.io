@@ -1,4 +1,4 @@
-header
+header 
 {
     display: flex;
     justify-content: space-between;
@@ -8,7 +8,7 @@ header
     padding: 10px 20px;
 }
 
-header h1
+header h1 
 {
     font-family: 'Press Start 2P', sans-serif;
     color: #fff;
@@ -16,30 +16,12 @@ header h1
     font-size: 30px;
 }
 
-header nav
+header nav 
 {
     text-align: right;
 }
 
-a
-{
-    display: inline-flex;
-    align-items: center;
-    color: #fff;
-    font-size: 20px;
-    font-family: 'Fira Code', monospace;
-    font-weight: 500;
-    text-decoration: none;
-    margin-right: 30px;
-    transition: .3s;
-}
-
-a:hover
-{
-    color: #1D1A31;
-}
-
-header a::before
+header a::before 
 {
     content: "";
     background-color: #F88D35;
@@ -47,5 +29,3 @@ header a::before
     height: 10px;
     margin-right: 10px;
 }
-
-
