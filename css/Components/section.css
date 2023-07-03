@@ -20,3 +20,13 @@
 {
     border-bottom: 10px solid #F88D35;
 }
+
+.main-section.-bgFuchsia
+{
+    background-color: #9A4C95;
+}
+
+.main-section.-bdBlack
+{
+    border-bottom: 10px solid #000;
+}

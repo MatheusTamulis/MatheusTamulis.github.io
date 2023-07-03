@@ -5,7 +5,7 @@ body, h1, h2, h3
     box-sizing: border-box;
 }
 
-a 
+a
 {
     display: inline-flex;
     align-items: center;
@@ -21,4 +21,13 @@ a
 a:hover 
 {
     color: #1D1A31;
+}
+
+p
+{
+    font-size: 30px;
+    font-family: 'Fira Code', monospace;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
 }
