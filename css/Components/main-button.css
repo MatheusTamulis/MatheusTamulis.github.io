@@ -1,4 +1,4 @@
-.button 
+.main-button 
 {
     color: #fff;
     display: inline-block;
@@ -12,14 +12,14 @@
     line-height: 60px; */
 }
 
-.button:hover 
+.main-button:hover 
 {
     background-color: #1D1A31;
     transform: scale(1.08);
     color: #fff;
 }
 
-.button::before
+.main-button::before
 {
     margin: 0;
 }
