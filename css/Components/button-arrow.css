@@ -23,3 +23,8 @@
     border-left: 28px solid #fff;
     transform: translateX(5px); /*Movi a seta 5px para frente no eixo X*/
 }
+
+.button-arrow.-left::before
+{
+    transform: rotate(180deg) translateX(13px);
+}
