@@ -1,0 +1,48 @@
+.main-carrossel
+{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    padding-left: 85px;
+    padding-right: 85px;
+}
+
+.main-carrossel::after
+{
+    content: '';
+    position: absolute;
+    left: 40px;
+    top: 35px;
+    display: block;
+    height: 4.5px;
+    width: calc(100% - 80px); /*Calcula 100% do pai (main carrossel) e tira 80px*/
+    background-color: black;
+}
+
+.main-carrossel::before
+{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 35px;
+    display: block;
+    border: 2.5px dashed #000;
+    width: 100%;
+}
+
+.main-carrossel .button-arrow
+{
+    position: absolute;
+    bottom: 70px;
+    transform: translateY(50%);
+}
+
+.main-carrossel .button-arrow.-left
+{
+    left: 15px;
+}
+
+.main-carrossel .button-arrow.-right
+{
+    right: 15px;
+}
