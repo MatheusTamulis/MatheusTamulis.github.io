@@ -23,7 +23,8 @@
 {
     content: '';
     position: absolute;
-    left: 0;
+    box-sizing: border-box;
+    left: 0px;
     top: 35px;
     display: block;
     border: 2.5px dashed #000;
@@ -45,4 +46,17 @@
 .main-carrossel .button-arrow.-right
 {
     right: 15px;
+}
+
+.main-carrossel .items
+{
+    width: 100%;
+    overflow: hidden;
+}
+
+.main-carrossel .elements
+{
+    display: flex;
+    justify-content: space-between;
+    transform: translateX(400px);
 }
