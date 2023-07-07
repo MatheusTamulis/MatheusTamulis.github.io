@@ -58,5 +58,5 @@
 {
     display: flex;
     justify-content: space-between;
-    transform: translateX(400px);
+    transition: .5s ease-in-out;
 }
