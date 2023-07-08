@@ -53,6 +53,8 @@
 
     <link rel="stylesheet" href="./css/Components/main-form.css">
 
+    <link rel="stylesheet" href="./css/Components/form-group.css">
+
     <link rel="stylesheet" href="./css/Components/main-footer.css">
     <title> Portfolio </title>
 
@@ -334,11 +336,22 @@
 
     <form action="" class="main-form">
 
-        <label for="">Nome</label>
-        <input type="text" required>
+        <h2 class="main-tittle -second" >Contatos</h2>
 
-        <label for="">Email</label>
-        <input type="text" required>
+        <div class="form-group">
+            <label class="texto" for="">Nome</label>
+            <input type="text" name="nome" id="nome" placeholder="Digite seu nome completo" required>
+        </div>
+
+        <div class="form-group">
+            <label class="texto" for="">Email</label>
+            <input type="email" name="email" id="email" placeholder="Digite seu e-mail" required>
+        </div>
+
+        <div class="">
+            <label class="texto" for="">Cometário</label>
+            <textarea name="comentario" id="comentario" ></textarea>
+        </div>
             
     </form>
 
