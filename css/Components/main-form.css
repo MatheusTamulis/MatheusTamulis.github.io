@@ -15,4 +15,11 @@
     font-size: 30px;
     font-weight: 300;
     color: #fff;
+    transition: .3s;
+}
+
+.main-form .button:hover
+{
+    background-color: #ad1ba4;
+    transform: scale(1.03);
 }
