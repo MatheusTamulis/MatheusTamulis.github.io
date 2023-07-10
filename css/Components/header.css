@@ -20,7 +20,7 @@ header nav
     text-align: right;
 }
 
-header a::before 
+header .navi::before 
 {
     content: "";
     background-color: #F88D35;
