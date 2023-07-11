@@ -67,4 +67,8 @@ header .navi::before
         display: none;
     }
 
+    .main-header .icon-close
+    {
+        display: none;
+    }
 }
