@@ -2,8 +2,8 @@
 {
     background-image: url(../../images/icon-menu.png);
     background-repeat: no-repeat;
-    background-size: auto 100%; /*eixo X primeiro depois euxo Y*/
-    text-indent: -9999px;
+    background-size: auto 100%; /*eixo X primeiro, depois eixo Y*/
+    text-indent: -9999px; /*Joga o texto para algum lado*/
     width: 60px;
     height: 60px;
     image-rendering: pixelated; /*No automatico sempre tenta ficar suavizado, assim deixa pixelizado*/
