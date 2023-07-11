@@ -31,9 +31,25 @@ header .navi::before
 
 @media(max-width: 980px) 
 {
-    .main-header .menu
+    .main-header > .menu
     {
-        display: none;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-color: #000;
+        width: 100%;
+        height: 100%;
+        padding: 16px;
+        box-sizing: border-box;
+    }
+
+    .main-header a
+    {
+        display: flex;
     }
 }
 
